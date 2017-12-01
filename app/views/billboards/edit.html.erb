@@ -1,0 +1,13 @@
+<h1>Edit billboard</h1>
+<hr />
+
+<%= form_for @billboard do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :active %>
+  <%= f.text_field :active %>
+
+  <%= f.submit %>
+
+<% end %>
